@@ -7,7 +7,7 @@ TraySetIcon("GAGM.ico")
 
 CreateMyGui() {
     global myGui, statusText, linkInput
-    myGui := Gui("-MaximizeBox", "GAGM by legend4d")
+    myGui := Gui("-MaximizeBox", "GAGM")
     myGui.SetFont("s10", "Segoe UI")
     myGui.AddText("x10 y10 w400 h50", "GROW A GARDEN MACRO BY legend4d")
     startBtn := myGui.AddButton("x10 y50 w80 h30", "Start")
